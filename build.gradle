@@ -11,12 +11,13 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.microsoft.playwright:playwright:1.41.0'
-    testImplementation platform('org.junit:junit-bom:6.0.0')
+    implementation 'com.microsoft.playwright:playwright:1.64.0'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-    testImplementation 'org.assertj:assertj-core:3.25.3'
-    implementation 'org.slf4j:slf4j-simple:2.0.11'
+//    testImplementation 'org.seleniumhq.selenium:selenium-java:4.45.0'
+    testImplementation 'org.aeonbits.owner:owner:1.0.4'
+    testImplementation 'org.assertj:assertj-core:3.27.7'
 }
 
 test {
